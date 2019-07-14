@@ -22,4 +22,5 @@ class FormulaRunner:
     def run(self):
         self.output = plus_ten(self.value)
         self.output = subtract_one(self.output)
-        return add_two_then_square(self.output)
+        self.output = add_two_then_square(self.output)
+        return self.output
