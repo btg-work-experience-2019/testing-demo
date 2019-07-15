@@ -16,11 +16,11 @@ def subtract_one(value):
 class FormulaRunner:
 
     def __init(self, input):
-        self.input
+        self.input = input
         self.output = 0
 
     def run(self):
-        self.output = plus_ten(self.value)
+        self.output = plus_ten(self.input)
         self.output = subtract_one(self.output)
         self.output = add_two_then_square(self.output)
         return self.output
