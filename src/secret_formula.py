@@ -15,7 +15,7 @@ def subtract_one(value):
 
 class FormulaRunner:
 
-    def __init(self, input):
+    def __init__(self, input):
         self.input = input
         self.output = 0
 
