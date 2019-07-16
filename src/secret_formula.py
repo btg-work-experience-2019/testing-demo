@@ -4,7 +4,7 @@ based on user inputs.
 '''
 
 def add_two_then_square(value):
-    return 2 + value * value
+    return (2 + value) ** 2
 
 def plus_ten(value):
     return value + 10
